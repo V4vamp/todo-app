@@ -1,28 +1,36 @@
-# todo-app-react
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Objective
+## Getting Started
 
-The objective of this technical assessment is to evaluate your proficiency in building JavaScript applications using ReactJS. For this assessment you will be required to build a simple todo application using localstorage as your database in order to persist data.
+First, run the development server:
 
-## Requirements
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- The application should allow users to add, and delete tasks.
-- Tasks should have a title, description, and status (completed or not).
-- The status should be toggleable.
-- Additionally, the application should persist data using LocalStorage (refer to this [link](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) for the definition of LocalStorage).
-- Kindly focus on the ‘functionality’ rather than UI.
-- The application should be built using ReactJS using CodeSandbox (link to CodeSandbox [here](https://codesandbox.io/)).
-- Please ensure that your CodeSandbox link is public and accessible.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Timeframe
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-You will have 72 hours to complete the assessment.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Assessment Criteria
+## Learn More
 
-You will be assessed based on the following criteria:
+To learn more about Next.js, take a look at the following resources:
 
-- Code quality (clean, concise, maintainable)
-- Functionality (all requirements met)
-- User experience (easy to use and visually appealing)
-- Best practices (proper use of ReactJS and LocalStorage)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
